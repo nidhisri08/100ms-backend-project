@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream your Room to Facebook!</title>
+</head>
+<script defer>
+    document.querySelector("#join-room-btn").addEventListener("click", (e)=>{
+        location.href= window.location.host + "/get-rooms"
+    });
+</script>
+<body>
+    <div class="parent-container">
+        <label for="room-name">User name</label>
+        <input type="text" name="user-name" id="user-name">
+        <button id="join-room-btn">Join Now!</button>
+    </div>
+    
+</body>
+</html>
